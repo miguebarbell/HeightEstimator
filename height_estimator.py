@@ -3,8 +3,9 @@ import imutils
 import numpy as np
 from datetime import datetime
 
+# todo: put an icon in the aruco tag
 # import image
-input_image = "images/mads3.jpg"
+input_image = "images/test.jpg"
 image = cv2.imread(input_image)
 image = imutils.resize(image, width=1200)
 # detect aruco tag

@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 
+# todo: documentation
 # generate aruco dict
 aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_ARUCO_ORIGINAL)
 
